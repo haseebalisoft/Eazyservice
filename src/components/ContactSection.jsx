@@ -73,7 +73,7 @@ const ContactSection = () => {
                         <div className="space-y-6 mb-8">
                             {/* WhatsApp */}
                             <a
-                                href="https://wa.me/966500000000"
+                                href="https://wa.me/966557852506"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="card-premium p-6 flex items-center gap-4 hover-lift group"
@@ -85,7 +85,7 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-gray-600 mb-1">واتساب</p>
-                                    <p className="text-xl font-bold text-primary" dir="ltr">+966 50 000 0000</p>
+                                    <p className="text-xl font-bold text-primary" dir="ltr">+966 55 785 2506</p>
                                 </div>
                             </a>
 
@@ -98,7 +98,7 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-gray-600 mb-1">اتصل بنا</p>
-                                    <p className="text-xl font-bold text-primary" dir="ltr">+966 50 000 0000</p>
+                                    <p className="text-xl font-bold text-primary" dir="ltr">+966 55 785 2506</p>
                                 </div>
                             </div>
 

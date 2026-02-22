@@ -104,7 +104,7 @@ Light Background:      #FAF7F2
 
 ### تغيير رقم الواتساب
 
-ابحث عن `966500000000` في الملفات واستبدله برقمك:
+ابحث عن `966557852506` في الملفات واستبدله برقمك:
 - `src/components/WhatsAppButton.jsx`
 - `src/components/ContactSection.jsx`
 - `src/components/Footer.jsx`
@@ -186,7 +186,7 @@ npm run deploy
 ## 📞 الدعم
 
 للدعم والاستفسارات:
-- WhatsApp: +966 50 000 0000
+- WhatsApp: +966 55 785 2506
 - Email: info@eplus-painting.com
 
 ## 📄 الترخيص
