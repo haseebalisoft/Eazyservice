@@ -1,0 +1,267 @@
+/* Mobile-Specific Optimizations */
+
+/* Mobile Hero Section */
+@media (max-width: 768px) {
+    .hero-mobile-padding {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-title-mobile {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle-mobile {
+        font-size: 1.25rem;
+    }
+
+    .hero-image-mobile {
+        height: 400px;
+        border-radius: 12px;
+    }
+}
+
+/* Mobile Navigation */
+@media (max-width: 1024px) {
+    .mobile-menu-overlay {
+        background: rgba(31, 61, 54, 0.95);
+        backdrop-filter: blur(10px);
+    }
+
+    .mobile-menu-item {
+        font-size: 1.125rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Mobile Cards */
+@media (max-width: 640px) {
+    .card-premium {
+        padding: 1.5rem;
+    }
+
+    .service-card-mobile {
+        margin-bottom: 1rem;
+    }
+
+    .portfolio-card-mobile {
+        height: 300px;
+    }
+}
+
+/* Mobile Typography */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile Buttons */
+@media (max-width: 640px) {
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .mobile-cta-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+
+/* Mobile WhatsApp Button */
+@media (max-width: 640px) {
+    .whatsapp-mobile {
+        bottom: 1.5rem;
+        left: 1.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .whatsapp-mobile svg {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+/* Mobile Form */
+@media (max-width: 640px) {
+
+    .contact-form-mobile input,
+    .contact-form-mobile select,
+    .contact-form-mobile textarea {
+        font-size: 1rem;
+        padding: 0.875rem 1rem;
+    }
+
+    .contact-card-mobile {
+        padding: 1rem;
+    }
+}
+
+/* Mobile Footer */
+@media (max-width: 768px) {
+    .footer-mobile-stack {
+        text-align: center;
+    }
+
+    .footer-mobile-stack ul {
+        text-align: center;
+    }
+
+    .footer-social-mobile {
+        justify-content: center;
+    }
+}
+
+/* Mobile Stats */
+@media (max-width: 640px) {
+    .stats-mobile {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .stat-item-mobile {
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+    }
+}
+
+/* Mobile Testimonials */
+@media (max-width: 640px) {
+    .testimonial-card-mobile {
+        padding: 2rem 1.5rem;
+    }
+
+    .testimonial-navigation-mobile {
+        display: none;
+    }
+
+    .testimonial-dots-mobile {
+        margin-top: 2rem;
+    }
+}
+
+/* Mobile Process Steps */
+@media (max-width: 768px) {
+    .process-step-mobile {
+        margin-bottom: 2rem;
+    }
+
+    .process-connector-mobile {
+        display: none;
+    }
+}
+
+/* Mobile Portfolio Filter */
+@media (max-width: 640px) {
+    .portfolio-filter-mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .portfolio-filter-mobile button {
+        font-size: 0.875rem;
+        padding: 0.625rem 1rem;
+    }
+}
+
+/* Touch Optimizations */
+@media (hover: none) and (pointer: coarse) {
+
+    /* Larger touch targets */
+    a,
+    button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Remove hover effects on touch devices */
+    .hover-lift:hover {
+        transform: none;
+    }
+
+    /* Tap highlight */
+    * {
+        -webkit-tap-highlight-color: rgba(198, 169, 107, 0.2);
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 896px) and (orientation: landscape) {
+    .hero-mobile-landscape {
+        min-height: auto;
+        padding: 4rem 0;
+    }
+
+    .hero-image-mobile-landscape {
+        height: 300px;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 375px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 0.875rem;
+        padding: 0.875rem 1.25rem;
+    }
+}
+
+/* Performance Optimizations for Mobile */
+@media (max-width: 768px) {
+
+    /* Reduce animation complexity on mobile */
+    .animate-fadeInUp {
+        animation-duration: 0.5s;
+    }
+
+    .animate-float {
+        animation: none;
+    }
+
+    /* Optimize shadows for mobile */
+    .shadow-2xl {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Reduce blur effects */
+    .blur-3xl {
+        filter: blur(40px);
+    }
+}
